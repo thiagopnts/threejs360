@@ -1,0 +1,24 @@
+{
+  "name": "threejs360",
+  "version": "1.0.0",
+  "description": "custom threejs build for 360 video",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thiagopnts/threejs360.git"
+  },
+  "keywords": [
+    "360",
+    "video",
+    "threejs"
+  ],
+  "author": "Thiago Pontes <hello@thiago.me>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/thiagopnts/threejs360/issues"
+  },
+  "homepage": "https://github.com/thiagopnts/threejs360#readme"
+}
