@@ -1,6 +1,6 @@
 {
   "name": "threejs360",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "custom threejs build for 360 video",
   "main": "index.js",
   "scripts": {
