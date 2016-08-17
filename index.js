@@ -8,16 +8,7 @@ var THREE = { REVISION: '75' };
 
 //
 
-if ( typeof define === 'function' && define.amd ) {
-
-	define( 'three', THREE );
-
-} else if ( 'undefined' !== typeof exports && 'undefined' !== typeof module ) {
-
-	module.exports = THREE;
-
-}
-
+module.exports = THREE;
 //
 
 if ( Number.EPSILON === undefined ) {
@@ -20674,7 +20665,7 @@ THREE.SpritePlugin = function ( renderer, sprites ) {
 	}
 
 	function painterSortStable ( a, b ) {
-		
+
 		if ( a.renderOrder !== b.renderOrder ) {
 
 			return a.renderOrder - b.renderOrder;
